@@ -910,7 +910,7 @@ CO₂, sea level, sea ice, fire, regional values and map shading are demos.</pre
     // Override before this script runs with window.EARTH_TREND_API_BASE.
     const apiHost = window.location.hostname || '127.0.0.1';
     const API_CONFIG = {
-      baseUrl: window.EARTH_TREND_API_BASE || `http://${apiHost}:8001`,
+      baseUrl: window.EARTH_TREND_API_BASE || `https://earthtrendexplorer.onrender.com`,
       temperatureEndpoint: '/api/temperature',
       requestTimeoutMs: 15000
     };

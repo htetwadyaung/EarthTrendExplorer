@@ -47,7 +47,7 @@ GISTEMP_REQUEST_TIMEOUT_SECONDS = max(
 
 # Comma-separated list so the frontend can be served from any local port.
 _default_origins = (
-    "http://localhost:8000,http://127.0.0.1:8000,"
+    "https://earthtrendexplorer-web.onrender.com,"
     "http://localhost:5500,http://127.0.0.1:5500"
 )
 _local_network_origin_regex = (
